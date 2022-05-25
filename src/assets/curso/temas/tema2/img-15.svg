@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175.023" height="239.939" viewBox="0 0 175.023 239.939">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbfbfb"/>
+      <stop offset="1" stop-color="#ebebeb"/>
+    </linearGradient>
+    <filter id="Trazado_465588" x="0" y="0" width="175.023" height="239.939" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="-0.112" y1="-0.064" x2="0.639" y2="0.926" gradientUnits="objectBoundingBox">
+      <stop offset="0.25"/>
+      <stop offset="0.25" stop-color="#020202"/>
+      <stop offset="0.31" stop-color="#363636"/>
+      <stop offset="0.37" stop-color="#656565"/>
+      <stop offset="0.44" stop-color="#8e8e8e"/>
+      <stop offset="0.51" stop-color="#b1b1b1"/>
+      <stop offset="0.59" stop-color="#cdcdcd"/>
+      <stop offset="0.67" stop-color="#e3e3e3"/>
+      <stop offset="0.75" stop-color="#f3f3f3"/>
+      <stop offset="0.86" stop-color="#fcfcfc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Trazado_465590" x="0.119" y="0" width="108.878" height="119.785" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_726942" data-name="Grupo 726942" transform="translate(-351.634 -5913)">
+    <g transform="matrix(1, 0, 0, 1, 351.63, 5913)" filter="url(#Trazado_465588)">
+      <path id="Trazado_465588-2" data-name="Trazado 465588" d="M1435.863,8.868v204.2a8.869,8.869,0,0,1-8.869,8.869H1287.709a8.87,8.87,0,0,1-8.869-8.869V8.868c0-.142,0-.285.01-.425A8.868,8.868,0,0,1,1287.709,0h139.285A8.868,8.868,0,0,1,1435.863,8.868Z" transform="translate(-1269.84 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Trazado_465589" data-name="Trazado 465589" d="M1378.312,48.45,1278.91,99.6V8.37A8.79,8.79,0,0,1,1287.691,0h53.1Z" transform="translate(-917.274 5919.885)" fill="url(#linear-gradient-2)"/>
+    <g transform="matrix(1, 0, 0, 1, 351.63, 5913)" filter="url(#Trazado_465590)">
+      <path id="Trazado_465590-2" data-name="Trazado 465590" d="M1369.788,10.907l-90.878,90.878V8.444A8.868,8.868,0,0,1,1287.769,0h71.112Z" transform="translate(-1269.79 6)" fill="#e7f1fe"/>
+    </g>
+  </g>
+</svg>

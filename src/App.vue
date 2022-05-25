@@ -28,4 +28,18 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.banner-principal
+  .tarjeta
+    max-height: 506px
+  .banner-principal__img
+    padding-top: 2.4rem !important
+    padding-right: 0 !important
+.decorador-titulo
+  display: flex
+  .container-decorador
+    display: flex
+    align-items: end
+    height: 70px
+    background: linear-gradient(0deg, rgba(169,227,241,1) 0%, rgba(169,227,241,1) 50%, rgba(255,255,255,1) 50%)
+</style>

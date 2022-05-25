@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="69" viewBox="0 0 418 69">
+  <defs>
+    <filter id="Trazado_484803" x="0" y="0" width="418" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_199066" x="0" y="0" width="40" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Trazado_199067" x="378" y="0" width="40" height="69" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_726942" data-name="Grupo 726942" transform="translate(-591 -2913.9)">
+    <g id="Grupo_726876" data-name="Grupo 726876" transform="translate(0 246.9)">
+      <g id="Grupo_726876-2" data-name="Grupo 726876" transform="translate(9934 11952)">
+        <g transform="matrix(1, 0, 0, 1, -9343, -9285)" filter="url(#Trazado_484803)">
+          <path id="Trazado_484803-2" data-name="Trazado 484803" d="M0,0H400V51H0Z" transform="translate(9 6)" fill="#44c7ea"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -9343, -9285)" filter="url(#Trazado_199066)">
+          <path id="Trazado_199066-2" data-name="Trazado 199066" d="M0,0H14l8,25.3L14,51H0Z" transform="translate(9 6)" fill="#3aa7c4"/>
+        </g>
+        <g transform="matrix(1, 0, 0, 1, -9343, -9285)" filter="url(#Trazado_199067)">
+          <path id="Trazado_199067-2" data-name="Trazado 199067" d="M0,0H14l8,25.3L14,51H0Z" transform="translate(409 57) rotate(180)" fill="#74d8f2"/>
+        </g>
+      </g>
+      <text id="Comportamientos_de_valor_agregado_" data-name="Comportamientos de valor agregado
+" transform="translate(637 2686)" fill="#12263f" font-size="20" font-family="Roboto-BlackItalic, Roboto" font-weight="800" font-style="italic"><tspan x="0" y="21">Comportamientos de valor agregado</tspan></text>
+    </g>
+  </g>
+</svg>
