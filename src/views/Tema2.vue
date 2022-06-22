@@ -19,10 +19,12 @@
 
     img(src="@/assets/curso/temas/tema2/img-2.png" data-aos="fade-left" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem);").mb-5
 
+    Separador
+
     .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1.	Variables y restricciones inherentes al proceso productivo
     
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
@@ -30,12 +32,12 @@
       img(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 449px").col-xl-5.mb-4.mb-xl-0.mx-auto
       p.col-xl-7.px-xl-4.mb-0 La mejora continua debe significar una forma de vida dentro de la empresa que genera oportunidades, es importante que para aumentar la competitividad en las organizaciones se utilice esta herramienta valiosa y fundamental, la cual hará lograr este objetivo. También es considerada como una filosofía que se apunta al aprovechamiento de los recursos de la empresa, especialmente los recursos humanos y el aprendizaje interno.
 
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-left"
     )
-      p.col-xl-7.px-xl-4.mb-0 Por otro lado, como ya se mencionó, la mejora continua se conoce como Kaizen en el enfoque Lean Manufacturing, el cual busca que se involucren todo el personal de la organización, incluyendo directivos y colaboradores por igual. El Kaizen busca mejorar la actitud de las personas, considerando que los esfuerzos conciben mejores resultados a largo plazo; sostiene que en el lugar de trabajo los colaboradores deben mantener y mejorar los niveles laborales con el fin de mejorar el rendimiento de cada proceso, lo cual representa una mejora en el desempeño laboral.
+      p.col-xl-7.px-xl-4.mb-5 Por otro lado, como ya se mencionó, la mejora continua se conoce como Kaizen en el enfoque Lean Manufacturing, el cual busca que se involucren todo el personal de la organización, incluyendo directivos y colaboradores por igual. El Kaizen busca mejorar la actitud de las personas, considerando que los esfuerzos conciben mejores resultados a largo plazo; sostiene que en el lugar de trabajo los colaboradores deben mantener y mejorar los niveles laborales con el fin de mejorar el rendimiento de cada proceso, lo cual representa una mejora en el desempeño laboral.
       img(src="@/assets/curso/temas/tema2/img-4.svg" style="max-width: 540px").col-xl-5.mb-4.mb-xl-0.mx-auto
     
     p.mb-5 Por tanto, es importante resaltar los siguientes aspectos que toman gran relevancia en la implementación de este sistema en las empresas:
@@ -105,7 +107,7 @@
     .decorador-titulo.mb-5
       .container-decorador
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
-        h2.mb-0.pe-0.pe-md-5#t_2_2_1 Control visual.
+        h3.mb-0.pe-0.pe-md-5#t_2_2_1 Control visual.
 
     p.mb-5(data-aos="fade-left") El Lean Manufacturing en su filosofía considera el control visual como una técnica importante en la gestión de las empresas, ya que se utilizan con el propósito de comunicar de forma clara y sencilla la situación de un proceso de producción, permite un rápido reconocimiento y visualización de la información que se comunica, con el fin de aumentar la eficiencia y la claridad; estas señales pueden ser de muchas formas y colores.
 
@@ -163,91 +165,73 @@
     p.mb-5 Por otro lado, la implementación de esta técnica de control visual en las empresas puede darse en diferentes formas. A continuación se pueden ver las herramientas que se implementan:
 
     SlyderE.mb-5(data-aos="fade-right")
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Alarmas</b>
-            br
-            br
-            | permite comunicar a sus colaboradores circunstancias de urgencia. 
+          h4 Alarmas
+          p permite comunicar a sus colaboradores circunstancias de urgencia. 
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-23.png' style="max-width: 820px")
 
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Lámparas de colores</b>
-            br
-            br
-            |se utiliza en la cadena de producción con el objetivo de informar el estado en que se encuentra. Cada color representa el estado actual del proceso.
+          h4 Lámparas de colores
+          p se utiliza en la cadena de producción con el objetivo de informar el estado en que se encuentra. Cada color representa el estado actual del proceso.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-24.png' style="max-width: 820px")
       
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Lecciones de un punto</b>
-            br
-            br
-            |transmitir el conocimiento y habilidades de forma sencilla y concisa.
+          h4 Lecciones de un punto
+          p transmitir el conocimiento y habilidades de forma sencilla y concisa.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-25.png' style="max-width: 820px")
 
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Tablero de información</b>
-            br
-            br
-            | implementado para  llevar una trazabilidad y seguimiento en la planificación de los procesos productivos.
+          h4 Tablero de información
+          p implementado para  llevar una trazabilidad y seguimiento en la planificación de los procesos productivos.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-26.png' style="max-width: 820px")
       
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Listas de verificación</b>
-            br
-            br
-            |son utilizadas con el fin de verificar las actividades realizadas de acuerdo a lo establecido previamente.
+          h4 Listas de verificación
+          p son utilizadas con el fin de verificar las actividades realizadas de acuerdo a lo establecido previamente.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-27.png' style="max-width: 820px")
       
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Marcas en el piso</b>
-            br
-            br
-            |se utilizan con el objetivo de organizar las áreas de trabajo en los procesos de producción y marcar las zonas para evitar urgencias o problemas en el flujo continuo. 
+          h4 Marcas en el piso
+          p se utilizan con el objetivo de organizar las áreas de trabajo en los procesos de producción y marcar las zonas para evitar urgencias o problemas en el flujo continuo. 
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-28.png' style="max-width: 820px")
       
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Marcación del puesto de trabajo</b>
-            br
-            br
-            |su objetivo es contribuir al orden y mejorar la eficacia de las áreas de trabajo de los colaboradores.
+          h4 Marcación del puesto de trabajo
+          p su objetivo es contribuir al orden y mejorar la eficacia de las áreas de trabajo de los colaboradores.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-29.png' style="max-width: 820px")
       
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Tablero de resultados</b>
-            br
-            br
-            |su objetivo es que mediante indicadores de desempeño se pueda comprobar el rendimiento de sus empleados influye en el resultado de los procesos y metas de la empresa.
+          h4 Tablero de resultados
+          p su objetivo es que mediante indicadores de desempeño se pueda comprobar el rendimiento de sus empleados influye en el resultado de los procesos y metas de la empresa.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-30.png' style="max-width: 820px")
       
-      .d-flex.flex-wrap
+      .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          p <b>Pirámide de seguridad</b>
-            br
-            br
-            |esta pirámide nos permite visualizar los diferentes tipos de accidentes graves, leves. Así mismo, los incidentes y practicas seguras.
+          h4 Pirámide de seguridad
+          p esta pirámide nos permite visualizar los diferentes tipos de accidentes graves, leves. Así mismo, los incidentes y practicas seguras.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-31.png' style="max-width: 820px")
     
     .decorador-titulo.mb-5
       .container-decorador
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
-        h2.mb-0.pe-0.pe-md-5#t_2_2_2 Hoja de ruta para la implantación <em>Lean</em>.
+        h3.mb-0.pe-0.pe-md-5#t_2_2_2 Hoja de ruta para la implantación <em>Lean</em>.
     
     p.mb-5(data-aos="fade-left") La hoja de ruta contempla 6 fases para la implementación, donde se inicia con un diagnóstico, seguido de la planificación para la implantación del Lean, lanzamiento, estabilización de mejoras, estandarización y fabricación en flujo. 
       br
@@ -261,28 +245,28 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1(style="color: black !important") "Hoja de ruta para la implantación Lean"
+              h3.mb-1(style="color: #12263F !important; ") "Hoja de ruta para la implantación Lean"
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="'https://www.youtube.com/watch?v=5Cmn3O7kEgQ&t'" target="_blank")
-                span(style="color: black !important") Descargar 
+                span(style="color: #12263F !important") Descargar 
                 i.fas.fa-file-download(style="color: black !important")
     
     .decorador-titulo.mb-5
       .container-decorador
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
-        h2.mb-0.pe-0.pe-md-5#t_2_2_3 Aspectos generales de implementación <em>Lean</em> en las empresas.
+        h3.mb-0.pe-0.pe-md-5#t_2_2_3 Aspectos generales de implementación <em>Lean</em> en las empresas.
     
     p.mb-5.pb-5(data-aos="fade-left") Los aspectos generales en la implementación Lean se resumen a dos categorías principales que tienen relación con factores de productividad denominados:
     .d-flex.flex-wrap.justify-content-center.align-items-stretch.mb-5.pt-3(data-aos="fade-right")
-      .col-md-6.col-xl-4.px-md-4.mb-5.mb-md-0.h-100.d-flex
-        .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important")
+      .col-md-6.col-xl-4.px-md-4.d-flex.mb-5.mb-md-auto
+        .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
           img(src="@/assets/curso/temas/tema2/img-33.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
-          p.mb-4.text-center.fw-bold Factores internos
+          h4.mb-4.text-center.fw-bold Factores internos
           p.text-center están sujetos a su control, ya que se modifican más fácilmente que otros como lo son las plantas industriales y el equipo en una empresa manufacturera, desempeñando un papel fundamental, adoptando medidas correctivas, reducción de tiempo parado y uso eficaz de las locaciones disponibles. 
-      .col-md-6.col-xl-4.px-md-4.h-100.d-flex.pt-5.pt-md-0
-        .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important")
+      .col-md-6.col-xl-4.px-md-4.d-flex.pt-5.pt-md-0
+        .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
           img(src="@/assets/curso/temas/tema2/img-33.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
-          p.mb-4.text-center.fw-bold Factores externos
+          h4.mb-4.text-center.fw-bold Factores externos
           p.text-center se refieren al desempeño socio económico y ambiental del medio externo tales como las costumbres, cultura empresarial, el desempleo, la calidad de vida, el nivel educativo, la cultura ambiental, entre otros.
 
     .position-relative(style="width: calc(100% + 6rem); margin-left: -3rem; margin-right: -3rem;")
@@ -295,10 +279,10 @@
     .decorador-titulo.mb-5
       .container-decorador
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
-        h2.mb-0.pe-0.pe-md-5#t_2_2_4 Fases de implementación.
+        h3.mb-0.pe-0.pe-md-5#t_2_2_4 Fases de implementación.
     p.mb-5(data-aos="fade-right") Implementar el sistema de <em>Lean Manufacturing</em> requiere de un plan serio y riguroso donde en cada fase de su ejecución contemple la situación actual de la empresa, los objetivos del plan de mejora, los cambios en la organización, la realización de actividades para reducir desperdicios, la optimización de los métodos de trabajo y la planificación del flujo continuo de los procesos. A continuación, se pueden revisar las fases para su implementación:
 
-    h3.mb-5.text-center FASES DE IMPLEMENTACIÓN LEAN
+    h4.mb-5.text-center FASES DE IMPLEMENTACIÓN LEAN
 
     .d-flex.flex-wrap.mb-4(data-aos="fade-left")
       .col-lg-7.order-2.order-lg-1

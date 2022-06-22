@@ -7,7 +7,7 @@
         span.text-white 4
       h1 El factor Humano en la implementación del Lean
     
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-left"
@@ -16,6 +16,8 @@
       p.col-xl-7.px-xl-4.mb-0 El factor humano es la clave principal para que un <b><em>proyecto Lean</em></b> salga a la perfección, debido a que se busca un compromiso de todos los empleados sin importar el cargo con el que cuenten dentro de la empresa y así lograr un compromiso total donde gobierne un buen trabajo en equipo y un gran liderazgo por parte de los mandos altos obteniendo mayores resultados siempre y cuando se entregue lo mejor de todos para cumplir con el objetivo.
 
     p.mb-5(data-aos="fade-right") Con este método se busca asignar responsabilidad entre todos los trabajadores que se encuentren involucrados con el proyecto promoviendo una buena comunicación y colaboración en la empresa donde deba ser la encargada de facilitar los recursos necesarios a cada uno de sus trabajadores y llevar a cabo un buen desarrollo del método Lean. 
+
+    Separador
 
     .titulo-segundo.color-acento-contenido
       h2#t_4_1 4.1.	Conceptos de liderazgo y trabajo de equipo, diferencias y características
@@ -27,7 +29,7 @@
           br
           | A continuación, se puede ver la definición de competencia personal del líder según los siguientes autores:
         
-        .bloque-texto-b.color-secundario.p-4.pb-xl-5.cajon-comillas-color.mx-auto.mb-4(style="background-color: #F3F9FF")
+        .bloque-texto-b.color-secundario.p-4.pb-xl-5.cajon-comillas-color.mx-auto.mb-4(style="background-color: #F3F9FF; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
           p.ps-xl-5 Torrelles, Coiduras, Isus, Carrera, París, y Cela (2011)
           .bloque-texto-b__texto
             i.fas.fa-quote-left(style="color: #35B5D5")
@@ -136,7 +138,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_4_3 4.3.	 Comunicación en el equipo de trabajo
 
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
@@ -151,7 +153,7 @@
           br
           br
           |En esencia, desarrollar el modelo en mano de miembros comprometidos no solo con los objetivos, sino también dispuestos a aprender, aportar conocimientos y mejorar colectivamente genera un ambiente de disposición, el cual permite dar paso a la colaboración y comunicación integral entre operarios, directivos y otros mandos.
-        .cajon.color-primario.cajon-t4-1.p-4.mb-4(style="background-color: #F3F9FF")
+        .cajon.color-primario.cajon-t4-1.p-4.mb-4(style="background-color: #F3F9FF; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
           p De esta forma, el rol de la comunicación juega un papel clave en el modelo debido a que crea conciencia de grupo y conlleva a una estrecha colaboración activa, lo cual se traduce en la resolución de conflictos y/o dudas que puedan entorpecer el proceso, logrando así el esperado éxito colectivo. A continuación, se puede observar el proceso de comunicación asertiva en un equipo de trabajo (ver figura 6):
 
     div(

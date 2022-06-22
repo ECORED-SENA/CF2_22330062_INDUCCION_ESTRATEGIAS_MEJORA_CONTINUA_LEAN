@@ -40,6 +40,14 @@ export default {
   .container-decorador
     display: flex
     align-items: flex-end
-    height: 70px
+    min-height: 70px
+    height: 100%
     background: linear-gradient(0deg, rgba(169,227,241,1) 0%, rgba(169,227,241,1) 50%, rgba(255,255,255,1) 50%)
+    @media (max-width: 768px)
+      background: rgba(169,227,241,1)
+      align-items: center
+      padding-right: .5rem
+.clean-bg-movil
+  @media (max-width: 1200px)
+    background-image: none !important
 </style>

@@ -7,7 +7,7 @@
         span.text-white 3
       h1 Conocer los formatos para la documentación de mejoras de procesos
     
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
@@ -32,7 +32,7 @@
     .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       img(src="@/assets/curso/temas/tema3/img-3.svg" style="max-width: 711px").mb-4.mb-xl-0.col-xl-7.mx-auto
       .col-xl-5.px-xl-2
-        p.p-4(style="background-color: #E8F1FF") Estos formatos nos permiten llevar un control del proceso donde se conozca la información necesaria para poder empezar una planificación de la mejora donde se deja establecido lo que se quiere mejorar y que se va a llevar a cabo para luego ser ejecutado. Al ser ejecutado se realiza una evaluación donde se busca encontrar los errores que se presentan continuamente para luego actuar y ser corregidos buscando el fin de la mejora.
+        p.p-4(style="background-color: #E8F1FF; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)") Estos formatos nos permiten llevar un control del proceso donde se conozca la información necesaria para poder empezar una planificación de la mejora donde se deja establecido lo que se quiere mejorar y que se va a llevar a cabo para luego ser ejecutado. Al ser ejecutado se realiza una evaluación donde se busca encontrar los errores que se presentan continuamente para luego actuar y ser corregidos buscando el fin de la mejora.
 
     p.mb-5(data-aos="fade-left") En la siguiente figura 5 se presenta los mecanismos que se deben utilizar para conocer todos los aspectos claves en el desarrollo de implementación de procesos de mejora:
 
@@ -40,7 +40,7 @@
       h5 Figura 4.
       span Formatos usados en la documentación de <em>Lean Manufacturing</em>
 
-    img(src="@/assets/curso/temas/tema3/img-4.svg" style="max-width: 610px" data-aos="fade-right").mx-auto
+    img(src="@/assets/curso/temas/tema3/img-4.svg" data-aos="fade-right").col-12.col-md-6.mx-auto
 
 </template>
 

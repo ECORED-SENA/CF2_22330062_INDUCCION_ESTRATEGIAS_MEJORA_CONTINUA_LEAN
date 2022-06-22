@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span.text-white 1
       h1 Valor agregado 
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
@@ -33,7 +33,7 @@
     .decorador-titulo.mb-5
       .container-decorador
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
-        h2.mb-0.pe-0.pe-md-5 <em>¿Por qué agregar valor?</em>
+        h3.mb-0.pe-0.pe-md-5 <em>¿Por qué agregar valor?</em>
     
     p.mb-5(data-aos="fade-right") Las empresas hoy en día tienen un gran reto el de identificar el valor percibido por los clientes, ¿qué es realmente lo que quiere? y ¿cuánto está dispuesto a pagar? Por estos interrogantes, a continuación, se presenta en la siguiente figura la importancia que tiene para las empresas crear valor:
 
@@ -56,7 +56,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_3 1.3. Actividades que generan valor 
 
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
@@ -66,7 +66,7 @@
     
     p.mb-5(data-aos="fade-left") Dentro de este orden de ideas, el enfoque anterior consiste en implementar un programa de marketing relacional, denominado también CRM (Customer Relationship Manager) con el cual las empresas identifican las necesidades que tiene el cliente y mejoran sus relaciones, esto implica una mayor comunicación y atención personalizada, saber lo que necesita y saber cuánto están dispuestos a pagar los clientes, darles mayores expectativas y hacerlos sentir en el centro de la organización, de acuerdo con Guadarrama y Rosales (2015).
 
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
@@ -80,7 +80,7 @@
     .bloque-texto-b.color-secundario.p-4.cajon-comillas-color.col-xl-11.mx-auto(data-aos="fade-left")
       .bloque-texto-b__texto
         i.fas.fa-quote-left(style="color: #35B5D5")
-        h2.mb-0 Al adoptar el marketing basado en las relaciones, la empresa necesita visión, liderazgo y paciencia para tener éxito mediante actividades como establecer una alta dirección eficiente; crear un fuerte vínculo con su estrategia; recoger información acerca de los clientes; mejorar las técnicas y procesos de información”.
+        h4.mb-0 Al adoptar el marketing basado en las relaciones, la empresa necesita visión, liderazgo y paciencia para tener éxito mediante actividades como establecer una alta dirección eficiente; crear un fuerte vínculo con su estrategia; recoger información acerca de los clientes; mejorar las técnicas y procesos de información”.
           br
           br
           |(Guadarrama y Rosales, 2015)
@@ -90,7 +90,7 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_4 1.4.	 Beneficios de implementar metodología de valor agregado
 
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
@@ -104,7 +104,7 @@
       h5 Figura 1.
       span Mejora continua
 
-    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
+    .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-3.svg')})`}"
       style="background-repeat: no-repeat; background-position: bottom; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
