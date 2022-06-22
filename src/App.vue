@@ -39,7 +39,7 @@ export default {
   display: flex
   .container-decorador
     display: flex
-    align-items: end
+    align-items: flex-end
     height: 70px
     background: linear-gradient(0deg, rgba(169,227,241,1) 0%, rgba(169,227,241,1) 50%, rgba(255,255,255,1) 50%)
 </style>

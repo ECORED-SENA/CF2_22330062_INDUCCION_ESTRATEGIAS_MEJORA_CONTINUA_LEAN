@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-botones
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 5
       h1 Medida de resultados <em>Lean</em> a través de indicadores 
     
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       .col-xl-7.d-flex.flex-wrap.order-2.order-xl-1
         p.w-100 La media de resultados que se plasma a través de indicadores son datos o conjuntos de datos que permiten que el gestor entienda qué es lo que su equipo está haciendo, considerado como un monitoreo en el cual se evalúa el crecimiento de lo que se está realizando.
         .cajon.color-primario.cajon-t5-1.p-4.w-100(style="background-color: #DDEEFF")
@@ -41,13 +41,13 @@
             .col-12.col-lg-4
               img(src="@/assets/curso/temas/tema5/img-1.svg" style="max-width: 96px").ms-auto
       img(src="@/assets/curso/temas/tema5/img-2.jpg" style="max-width: 505px").col-xl-5.mx-auto.mb-4.mb-xl-auto.order-1.order-xl-2
-    p.mb-5 Es por esto que en cada una de ellas se pueden medir diferentes indicadores. Pero, se presentan los  doce (12) indicadores principales que son utilizados en la medida de resultados Lean (ver figura 6):
+    p.mb-5(data-aos="fade-left") Es por esto que en cada una de ellas se pueden medir diferentes indicadores. Pero, se presentan los  doce (12) indicadores principales que son utilizados en la medida de resultados Lean (ver figura 6):
     img(src="@/assets/curso/temas/tema5/bg-1.png" style="margin-right: -3rem; margin-left: -3rem; min-width: calc(100% + 6rem); position: absolute; z-index: 0")
-    .titulo-sexto.color-acento-botones.mb-5
+    .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 6.
       span Indicadores para medida de resultados <em>Lean</em>
     
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       .col-xl-4.mx-auto.px-xl-2.mb-4.mb-xl-0
         img(src="@/assets/curso/temas/tema5/img-3.png" style="max-width: 399px")
       .col-xl-4.mx-auto.px-xl-2.mb-5.mb-xl-0
@@ -102,16 +102,16 @@
             
     Separador
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_5_1 5.1.	Criterios a tener en cuenta para implantar indicadores
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-left")
       .col-xl-7.order-2.order-xl-1.pe-xl-4
         p.mb-4 Para implantar indicadores se deben tener en cuenta dos aspectos muy relevantes, los cuales son la toma de datos y la responsabilidad de la gestión, ya que un indicador es el medio por el cual se va a evaluar hasta qué punto se está llevando a cabo los objetivos estratégicos.
           br
           br
           |Algunos de los criterios que se deben tener en cuenta son los siguientes:
-        .cajon.color-acento-botones.cajon-t5-1.p-4.px-xl-5.w-100(style="background-color: #AEDBEF")
+        .cajon.color-acento-contenido.cajon-t5-1.p-4.px-xl-5.w-100(style="background-color: #AEDBEF")
           p Un indicador gráfico es el que más ayuda nos proporciona, ya que se da a entender en los datos que se están buscando.
             br
             |Se debe tener claridad en lo que se busca medir y qué parámetros están.
@@ -121,14 +121,14 @@
             |Todo indicador va a servir, pero va a ver uno que otro que ofrezca más beneficios y herramientas y oportunidades en la calidad del trabajo.
       img(src="@/assets/curso/temas/tema5/img-5.jpg" style="max-width: 505px").col-xl-5.mb-4.mb-xl-auto.mx-auto.order-1.order-xl-2
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_5_2 5.2. Directrices básicas para definir indicadores
     
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       img(src="@/assets/curso/temas/tema5/img-6.jpg" style="max-width: 505px").col-xl-5.mb-4.mb-xl-auto.mx-auto
       .col-xl-7.ps-xl-4
         p Las directrices son un conjunto de normas que se llevan a cabo en la acción de un plan, por esto se relacionan las normas básicas para crear indicadores a la hora de llevarse a cabo:
-        .cajon.color-acento-botones.cajon-t5-1.p-4.px-xl-5.w-100(style="background-color: #AEDBEF")
+        .cajon.color-acento-contenido.cajon-t5-1.p-4.px-xl-5.w-100(style="background-color: #AEDBEF")
           p Cuando el objetivo se puede medir o cuantificar, se debe alinear con el indicador buscando el mismo fin para así tener una medición segura y confiable en el diagnóstico.
             br
             |Un indicador siempre será una escala numérica.
@@ -139,13 +139,13 @@
             br
             |El indicador debe ser confiable en sus resultados ya que así facilita la toma de decisiones por parte del gestor.
     Separador
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_5_3 5.3. Indicadores de medición para analizar la evaluación
-    p.mb-5 Los indicadores de gestión son una herramienta que permite a los gerentes y directivos de las organizaciones mantener una <b>evaluación permanente y sistemática de los resultados</b> de todas sus operaciones financieras y no financieras, ya sean de mercados, administrativas y ambientales, logrando un incremento de la eficacia, facilitando la toma de decisiones de manera oportuna, dado que recolectan toda la información necesaria que sirva de base para ejercer un mejoramiento continuo.
+    p.mb-5(data-aos="fade-left") Los indicadores de gestión son una herramienta que permite a los gerentes y directivos de las organizaciones mantener una <b>evaluación permanente y sistemática de los resultados</b> de todas sus operaciones financieras y no financieras, ya sean de mercados, administrativas y ambientales, logrando un incremento de la eficacia, facilitando la toma de decisiones de manera oportuna, dado que recolectan toda la información necesaria que sirva de base para ejercer un mejoramiento continuo.
       br
       |Por otro lado, hay cinco tipos de indicadores para la medición y el análisis de la evaluación, los cuales se dividen en:
     
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-right")
       .col-12.col-md-6.col-lg-5.col-xl-3.px-2.mx-auto
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -183,7 +183,7 @@
               p.fw-bold(style="color: black;") Indicadores de eficacia
               p.mb-0(style="color: black;") Este indicador está relacionado con las razones que indican capacidad o acierto en la consecución de tareas y/o trabajos.
 
-    p Estos indicadores tienen como objetivo cumplir en la medición de satisfacer en los resultados que se esperan, los cuales tratan de comunicar la estrategia, comunicar las metas, identificar problemas y oportunidades, así como diagnosticar problemas.
+    p(data-aos="fade-left") Estos indicadores tienen como objetivo cumplir en la medición de satisfacer en los resultados que se esperan, los cuales tratan de comunicar la estrategia, comunicar las metas, identificar problemas y oportunidades, así como diagnosticar problemas.
       br
       br
       |El gestor tiene la libertad de escoger cuál indicador es el adecuado para lo que se está buscando siempre y cuando el indicador cumpla con los resultados básicos que se deben dar ayudando a facilitar los diagnósticos del proyecto.

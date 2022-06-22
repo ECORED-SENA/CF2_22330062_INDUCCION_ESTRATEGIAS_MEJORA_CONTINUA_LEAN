@@ -71,31 +71,6 @@ export default {
             titulo: 'Técnicas o herramientas de mejoramiento continuo',
             hash: 't_2_2',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2.1',
-            titulo: 'Control Visual',
-            hash: 't_2_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2.2',
-            titulo: 'Hoja de ruta para la implantación <em>Lean</em>',
-            hash: 't_2_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2.3',
-            titulo:
-              'Aspectos generales de implementación <em>Lean</em> en las empresas',
-            hash: 't_2_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2.4',
-            titulo: 'Fases de implementación',
-            hash: 't_2_2_4',
-          },
         ],
       },
       {

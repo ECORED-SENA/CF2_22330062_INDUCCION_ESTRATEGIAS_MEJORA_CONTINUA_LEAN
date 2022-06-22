@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-botones
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 2
       h1 Titulo de primer nivel
 
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.bloque-img-text-1.mb-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.bloque-img-text-1.mb-5(data-aos="fade-right")
       img(src="@/assets/curso/temas/tema2/img-1_1.png").img-mascara
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-1.png')})`}"
@@ -17,14 +17,15 @@
 
     p.mb-0 En la siguiente imagen se presentan 10 puntos clave del sistema Kaizen en la excelencia de las operaciones de mejora continua en las empresas, a continuación, se pueden ver: 
 
-    img(src="@/assets/curso/temas/tema2/img-2.png" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem);").mb-5
+    img(src="@/assets/curso/temas/tema2/img-2.png" data-aos="fade-left" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem);").mb-5
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_2_1 2.1.	Variables y restricciones inherentes al proceso productivo
     
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
+      data-aos="fade-right"
     )
       img(src="@/assets/curso/temas/tema2/img-3.svg" style="max-width: 449px").col-xl-5.mb-4.mb-xl-0.mx-auto
       p.col-xl-7.px-xl-4.mb-0 La mejora continua debe significar una forma de vida dentro de la empresa que genera oportunidades, es importante que para aumentar la competitividad en las organizaciones se utilice esta herramienta valiosa y fundamental, la cual hará lograr este objetivo. También es considerada como una filosofía que se apunta al aprovechamiento de los recursos de la empresa, especialmente los recursos humanos y el aprendizaje interno.
@@ -32,50 +33,51 @@
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
+      data-aos="fade-left"
     )
       p.col-xl-7.px-xl-4.mb-0 Por otro lado, como ya se mencionó, la mejora continua se conoce como Kaizen en el enfoque Lean Manufacturing, el cual busca que se involucren todo el personal de la organización, incluyendo directivos y colaboradores por igual. El Kaizen busca mejorar la actitud de las personas, considerando que los esfuerzos conciben mejores resultados a largo plazo; sostiene que en el lugar de trabajo los colaboradores deben mantener y mejorar los niveles laborales con el fin de mejorar el rendimiento de cada proceso, lo cual representa una mejora en el desempeño laboral.
       img(src="@/assets/curso/temas/tema2/img-4.svg" style="max-width: 540px").col-xl-5.mb-4.mb-xl-0.mx-auto
     
     p.mb-5 Por tanto, es importante resaltar los siguientes aspectos que toman gran relevancia en la implementación de este sistema en las empresas:
 
-    SlyderF.mb-5.slider-edit-1(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
+    SlyderF.mb-5.slider-edit-1(columnas="col-lg-6 col-xl-4" data-aos="fade-right")
+      .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema2/img-5.png' style="max-width: 140px").mx-auto
         h4.text-center 1. Incrementa los niveles de productividad y rendimiento de la maquinaria.
 
-      .tarjeta.color-acento-botones.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
+      .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema2/img-6.png' style="max-width: 140px").mx-auto
         h4.text-center 2. Productos o servicios de alta calidad a diferencia de nuestros competidores.
 
-      .tarjeta.color-acento-botones.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
+      .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema2/img-7.png' style="max-width: 140px").mx-auto
         h4.text-center 3. Realiza procedimientos más eficientes y eficaces.
 
-      .tarjeta.color-acento-botones.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
+      .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema2/img-8.png' style="max-width: 140px").mx-auto
         h4.text-center 4. Tiempos mínimos en procesos productivos.
 
-      .tarjeta.color-acento-botones.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
+      .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema2/img-9.png' style="max-width: 140px").mx-auto
         h4.text-center 5. Optimización de costos y gastos de producción.
 
-      .tarjeta.color-acento-botones.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
+      .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema2/img-10.png' style="max-width: 140px").mx-auto
         h4.text-center 6. Margenes de utilidad frente al costos bajos de producción.
 
-      .tarjeta.color-acento-botones.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
+      .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/temas/tema2/img-11.png' style="max-width: 140px").mx-auto
@@ -83,10 +85,10 @@
 
     Separador
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_2_2 2.2.	Técnicas o herramientas de mejoramiento continuo
 
-    .bloque-texto-g.color-acento-botones.p-3.p-sm-4.p-md-5.bloque-img-text-2.mb-5
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.bloque-img-text-2.mb-5(data-aos="fade-left")
       img(src="@/assets/curso/temas/tema2/img-12_1.png").img-mascara-2
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img-12.png')})`}"
@@ -96,7 +98,7 @@
 
     p.mb-5 Estas técnicas se pueden implementar en conjunto o independientemente, respondiendo a las características específicas de cada caso, algunos de ellos se explican en el siguiente video:
 
-    figure.mb-5.video1
+    figure.mb-5.video1(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -105,15 +107,15 @@
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
         h2.mb-0.pe-0.pe-md-5#t_2_2_1 Control visual.
 
-    p.mb-5 El Lean Manufacturing en su filosofía considera el control visual como una técnica importante en la gestión de las empresas, ya que se utilizan con el propósito de comunicar de forma clara y sencilla la situación de un proceso de producción, permite un rápido reconocimiento y visualización de la información que se comunica, con el fin de aumentar la eficiencia y la claridad; estas señales pueden ser de muchas formas y colores.
+    p.mb-5(data-aos="fade-left") El Lean Manufacturing en su filosofía considera el control visual como una técnica importante en la gestión de las empresas, ya que se utilizan con el propósito de comunicar de forma clara y sencilla la situación de un proceso de producción, permite un rápido reconocimiento y visualización de la información que se comunica, con el fin de aumentar la eficiencia y la claridad; estas señales pueden ser de muchas formas y colores.
 
-    .position-relative.mb-5
-      img(src="@/assets/curso/temas/tema2/img-13.png")
+    .position-relative.mb-5(data-aos="fade-right")
+      img(src="@/assets/curso/temas/tema2/img-13.jpg")
       p.text-img-1 Los métodos de control visual tienen como objetivo aumentar la eficiencia y la eficacia de un proceso al hacer los pasos del proceso más visibles; la teoría detrás de control visual es que, si algo es claramente visible o está a la vista, es fácil de recordar y mantenerlo presente, una ventaja del control visual es que a todo el mundo se le dan las mismas señales visuales y así es probable que tengan el mismo punto de vista, de acuerdo con Consulting Group, (s.f.).
 
     p.mb-5 El sistema de control visual radica en mejorar la comunicación con la información relevante y estandarizarla, su implementación puede contribuir en los siguientes aspectos para la empresa:
 
-    .d-flex.flex-wrap.justify-content-between.mb-5.position-relative(@mouseover="indicadorImagenHover = false")
+    .d-flex.flex-wrap.justify-content-between.mb-5.position-relative(@mouseover="indicadorImagenHover = false" data-aos="fade-left")
       .indicador--hover.d-none.d-md-flex(v-if="indicadorImagenHover")
       .indicador--click.d-block.d-md-none(v-if="indicadorImagenHover")
       .card-img-1
@@ -160,7 +162,7 @@
 
     p.mb-5 Por otro lado, la implementación de esta técnica de control visual en las empresas puede darse en diferentes formas. A continuación se pueden ver las herramientas que se implementan:
 
-    SlyderE.mb-5
+    SlyderE.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap
         .col-xl-4.order-2.order-xl-1
           p <b>Alarmas</b>
@@ -247,12 +249,12 @@
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
         h2.mb-0.pe-0.pe-md-5#t_2_2_2 Hoja de ruta para la implantación <em>Lean</em>.
     
-    p.mb-5 La hoja de ruta contempla 6 fases para la implementación, donde se inicia con un diagnóstico, seguido de la planificación para la implantación del Lean, lanzamiento, estabilización de mejoras, estandarización y fabricación en flujo. 
+    p.mb-5(data-aos="fade-left") La hoja de ruta contempla 6 fases para la implementación, donde se inicia con un diagnóstico, seguido de la planificación para la implantación del Lean, lanzamiento, estabilización de mejoras, estandarización y fabricación en flujo. 
       br
       br
       | Implementar el sistema de <em>Lean Manufacturing</em> requiere una hoja de ruta que implica un plan y una ejecución seria y rigurosa en cada una de las fases, según se presenta en el siguiente PDF a descargar.
     
-    .tarjeta.color-primario.p-3.mb-5.col-xl-8.mx-auto(style="background-color: #F3F9FF; border-radius: 0;")
+    .tarjeta.color-primario.p-3.mb-5.col-xl-8.mx-auto(style="background-color: #F3F9FF; border-radius: 0;" data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3
           img(src="@/assets/curso/temas/tema2/img-32.svg")
@@ -261,7 +263,7 @@
             .col.mb-3.mb-sm-0
               h3.mb-1(style="color: black !important") "Hoja de ruta para la implantación Lean"
             .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="'https://www.youtube.com/watch?v=5Cmn3O7kEgQ&t'" target="_blank")
+              a.boton.color-acento-botones.texto-blanco(:href="'https://www.youtube.com/watch?v=5Cmn3O7kEgQ&t'" target="_blank")
                 span(style="color: black !important") Descargar 
                 i.fas.fa-file-download(style="color: black !important")
     
@@ -270,8 +272,8 @@
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
         h2.mb-0.pe-0.pe-md-5#t_2_2_3 Aspectos generales de implementación <em>Lean</em> en las empresas.
     
-    p.mb-5.pb-5 Los aspectos generales en la implementación Lean se resumen a dos categorías principales que tienen relación con factores de productividad denominados:
-    .d-flex.flex-wrap.justify-content-center.align-items-stretch.mb-5.pt-3
+    p.mb-5.pb-5(data-aos="fade-left") Los aspectos generales en la implementación Lean se resumen a dos categorías principales que tienen relación con factores de productividad denominados:
+    .d-flex.flex-wrap.justify-content-center.align-items-stretch.mb-5.pt-3(data-aos="fade-right")
       .col-md-6.col-xl-4.px-md-4.mb-5.mb-md-0.h-100.d-flex
         .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important")
           img(src="@/assets/curso/temas/tema2/img-33.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
@@ -286,7 +288,7 @@
     .position-relative(style="width: calc(100% + 6rem); margin-left: -3rem; margin-right: -3rem;")
       img(src="@/assets/curso/temas/tema2/bg-1.png" style="position: absolute; top: -260px")
     
-    .cajon.color-acento-botones.p-4.mb-5(style="background-color: #5BC6E1")
+    .cajon.color-acento-contenido.p-4.mb-5(style="background-color: #5BC6E1" data-aos="fade-left")
       .h5 ¡Importante!
       p La tecnología, dado que con su uso es posible generar un incremento en el volumen de bienes y servicios, un perfeccionamiento de la calidad, la introducción de nuevos métodos de comercialización, entre otros, ha permitido que la automatización pueda asimismo mejorar el manejo de los materiales y el almacenamiento, los sistemas de comunicación y el control de la calidad.
     
@@ -294,11 +296,11 @@
       .container-decorador
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
         h2.mb-0.pe-0.pe-md-5#t_2_2_4 Fases de implementación.
-    p.mb-5 Implementar el sistema de <em>Lean Manufacturing</em> requiere de un plan serio y riguroso donde en cada fase de su ejecución contemple la situación actual de la empresa, los objetivos del plan de mejora, los cambios en la organización, la realización de actividades para reducir desperdicios, la optimización de los métodos de trabajo y la planificación del flujo continuo de los procesos. A continuación, se pueden revisar las fases para su implementación:
+    p.mb-5(data-aos="fade-right") Implementar el sistema de <em>Lean Manufacturing</em> requiere de un plan serio y riguroso donde en cada fase de su ejecución contemple la situación actual de la empresa, los objetivos del plan de mejora, los cambios en la organización, la realización de actividades para reducir desperdicios, la optimización de los métodos de trabajo y la planificación del flujo continuo de los procesos. A continuación, se pueden revisar las fases para su implementación:
 
     h3.mb-5.text-center FASES DE IMPLEMENTACIÓN LEAN
 
-    .d-flex.flex-wrap.mb-4
+    .d-flex.flex-wrap.mb-4(data-aos="fade-left")
       .col-lg-7.order-2.order-lg-1
         LineaTiempoD.linea-tiempo-1
           p(numero="1" titulo="Fase 1") <b>Diagnóstico y formación: </b>

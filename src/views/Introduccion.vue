@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-botones
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero(style="background-color: #35B5D5;")
         span.text-white
           i.fas.fa-info

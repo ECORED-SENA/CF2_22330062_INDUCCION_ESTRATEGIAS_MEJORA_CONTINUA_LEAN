@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-botones
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 4
       h1 El factor Humano en la implementación del Lean
@@ -10,16 +10,17 @@
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
+      data-aos="fade-left"
     )
       img(src="@/assets/curso/temas/tema4/img-1.svg" style="max-width: 449px").col-xl-5.mb-4.mb-xl-0.mx-auto
       p.col-xl-7.px-xl-4.mb-0 El factor humano es la clave principal para que un <b><em>proyecto Lean</em></b> salga a la perfección, debido a que se busca un compromiso de todos los empleados sin importar el cargo con el que cuenten dentro de la empresa y así lograr un compromiso total donde gobierne un buen trabajo en equipo y un gran liderazgo por parte de los mandos altos obteniendo mayores resultados siempre y cuando se entregue lo mejor de todos para cumplir con el objetivo.
 
-    p.mb-5 Con este método se busca asignar responsabilidad entre todos los trabajadores que se encuentren involucrados con el proyecto promoviendo una buena comunicación y colaboración en la empresa donde deba ser la encargada de facilitar los recursos necesarios a cada uno de sus trabajadores y llevar a cabo un buen desarrollo del método Lean. 
+    p.mb-5(data-aos="fade-right") Con este método se busca asignar responsabilidad entre todos los trabajadores que se encuentren involucrados con el proyecto promoviendo una buena comunicación y colaboración en la empresa donde deba ser la encargada de facilitar los recursos necesarios a cada uno de sus trabajadores y llevar a cabo un buen desarrollo del método Lean. 
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_4_1 4.1.	Conceptos de liderazgo y trabajo de equipo, diferencias y características
     
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-left")
       .col-xl-7.order-2.order-xl-1
         p Las competencias personales del líder desarrollan a los equipos de trabajo, como en toda competencia se requiere de una transferencia y es de vital importancia poder movilizar el conjunto de conocimientos que se han ido logrando a lo largo del tiempo para poderlos poner en práctica.
           br
@@ -35,9 +36,9 @@
         p Es un grado más en esta estructura compleja que culmina con la puesta en práctica de todo aquello que se sabe, o del conjunto de recursos adquiridos, de acuerdo con la fuente citada.    
       img(src="@/assets/curso/temas/tema4/img-2.jpg" style="max-width: 429px").col-xl-5.mb-4.mb-xl-auto.mx-auto.order-1.order-xl-2
     
-    p.mb-5 Para no tener confusiones con estas terminologías, se pueden ver el concepto de liderazgo y de trabajo de equipo identificando características y diferencias:
+    p.mb-5(data-aos="fade-right") Para no tener confusiones con estas terminologías, se pueden ver el concepto de liderazgo y de trabajo de equipo identificando características y diferencias:
 
-    .d-flex.flex-wrap
+    .d-flex.flex-wrap(data-aos="fade-left")
       .col-xl-6.px-xl-2.mb-4
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -84,12 +85,12 @@
       
     Separador
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_4_2 4.2.	 Desarrollo de un equipo de trabajo
     
     p.mb-5 Según el psicólogo Bruce Tuckman (1965), los equipos de trabajo pasan por 5 etapas de desarrollo: formación, asalto, normalización, actuación y clausura.
 
-    ImagenInfografica.color-secundario.mb-5.container-img-infografica
+    ImagenInfografica.color-secundario.mb-5.container-img-infografica(data-aos="fade-right")
       template(v-slot:imagen)
         figure
           img(src='@/assets/curso/temas/tema4/img-7.svg')
@@ -124,25 +125,26 @@
             h5.ps-2 Etapa de clausura:
         p.mb-0.px-3 es la etapa donde el trabajo de equipo logra su objetivo final, viendo los resultados que obtuvieron a lo largo del tiempo, es la etapa que concluye todo el proceso.
     img(src="@/assets/curso/temas/tema4/bg-1.png" style="margin-right: -3rem; margin-left: -3rem; min-width: calc(100% + 6rem); position: absolute;")
-    p.mb-5 Para construir un nuevo escenario, en donde los fundamentos del Lean Manufacturing se vean reflejados y ejecutados, es primordial desarrollar un equipo de trabajo para garantizar el éxito en esta cultura de cooperación y comunicación. Existen diversos beneficios y motivaciones para implementar el trabajo colectivo en grupos multidisciplinares, tales como:
+    p.mb-5(data-aos="fade-left") Para construir un nuevo escenario, en donde los fundamentos del Lean Manufacturing se vean reflejados y ejecutados, es primordial desarrollar un equipo de trabajo para garantizar el éxito en esta cultura de cooperación y comunicación. Existen diversos beneficios y motivaciones para implementar el trabajo colectivo en grupos multidisciplinares, tales como:
 
-    img(src='@/assets/curso/temas/tema4/img-8.svg').col-lg-10.col-xl-8.mx-auto.mb-5
+    img(src='@/assets/curso/temas/tema4/img-8.svg' data-aos="fade-right").col-lg-10.col-xl-8.mx-auto.mb-5
 
-    p.mb-4 Por ende, se evidencia que contar con equipos de trabajo conformados por personas motivadas, comprometidas y dispuestas a compartir sus conocimientos aseguran el éxito en el proceso, otorgándole a la empresa resultados óptimos y eficientes a través de buenas prácticas coordinadas por los objetivos iniciales.
+    p.mb-4(data-aos="fade-left") Por ende, se evidencia que contar con equipos de trabajo conformados por personas motivadas, comprometidas y dispuestas a compartir sus conocimientos aseguran el éxito en el proceso, otorgándole a la empresa resultados óptimos y eficientes a través de buenas prácticas coordinadas por los objetivos iniciales.
 
     Separador
 
-    .titulo-segundo.color-acento-botones
+    .titulo-segundo.color-acento-contenido
       h2#t_4_3 4.3.	 Comunicación en el equipo de trabajo
 
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
+      data-aos="fade-right"
     )
       p.col-xl-7.px-xl-4.mb-0 La comunicación en un equipo de trabajo es uno de los factores más esenciales que debe haber para que el equipo funcione, ya que la buena comunicación genera un entorno que impulsa un rendimiento excelente por medio de la confianza que se genera al dejar claras las ideas y objetivos que se buscan llevar a cabo obteniendo una buena comunicación de lo que se debe hacer entre todos los integrantes que forman el equipo de trabajo.
       img(src="@/assets/curso/temas/tema4/img-9.svg" style="max-width: 544px").col-xl-5.mb-4.mb-xl-0.mx-auto
 
-    .d-flex.flex-wrap.mb-5
+    .d-flex.flex-wrap.mb-5(data-aos="fade-left")
       img(src="@/assets/curso/temas/tema4/img-10.jpg" style="max-width: 505px").col.xl-5.mx-auto.mb-4.mb-xl-auto
       .col-xl-7
         p Conocer en qué consiste la comunicación y diferentes formas mediante las cuales es posible la comunicación permite obtener una calidad de intercambio en la información siendo un factor clave de éxito en lo que se está desarrollando, es por eso, que cuando en un equipo de trabajo no existe una buena comunicación siempre se fracasa, ya que no saben cómo expresar las ideas y pensamientos ante el grupo de trabajo con el que van a interactuar.
@@ -156,10 +158,10 @@
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-3.png')})`}"
       style="background-repeat: no-repeat; background-position: top; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
     )
-      .titulo-sexto.color-acento-botones.mb-5
+      .titulo-sexto.color-acento-contenido.mb-5
         h5 Figura 5.
         span Comunicación Asertiva en el equipo de trabajo.
-      img(src="@/assets/curso/temas/tema4/img-11.svg" style="max-width: 505px").col-lg-10.col.xl-6.mx-auto.pb-5
+      img(src="@/assets/curso/temas/tema4/img-11.svg" style="max-width: 505px" data-aos="fade-left").col-lg-10.col.xl-6.mx-auto.pb-5
 </template>
 
 <script>
