@@ -4,23 +4,25 @@
     :style="{'background-image': globalData.fondoBannerPrincipal ? `url(${globalData.fondoBannerPrincipal})` : 'none'}"
     style="min-height: 506px; display: flex; overflow: hidden;"
   )
-    .row.banner-principal__row.position-relative.justify-content-center.align-items-center
-      .col-lg-7.col-xxl-6.py-4.py-sm-5.banner-principal__info
+    .row.banner-principal__row
+      .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
         .banner-principal__componente
-          h1.mb-0(v-html="globalData.componenteFormativo" style="color: white")
-        .col-lg-12.my-5
-          .banner-principal__descripcion
-            p.mb-0(v-html="globalData.descripcionCurso" style="color: white;")
+          h1.mb-0(v-html="globalData.componenteFormativo")
+        .banner-principal__descripcion
+          p.mb-0(v-html="globalData.descripcionCurso")
         .banner-principal__accion
-          router-link.boton(:to="{name: iniciarLnk.nombreRuta }" style="background-color: #FFD947")
-            span.me-1 Iniciar
+          router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
+            span.me-1 Ver más
             i.fas.fa-angle-right
 
-      .d-none.d-lg-flex.col-lg-5.px-0.position-relative.img-p.align-items-center.img-banner-1
-        img(:src="globalData.imagenBannerPrincipal").mb-auto
+      .d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+        img(:src="globalData.imagenBannerPrincipal")
+        div(v-for="img in extraImgs" :class="img.clases")
+          img(:src="img.imagen")
     .imagen_flotante_1: img(src="@/assets/curso/portada/flot1.svg").d-none.d-lg-block
     .imagen_flotante_2: img(src="@/assets/curso/portada/flot2.svg").d-none.d-lg-block
     .imagen_flotante_3: img(src="@/assets/curso/portada/flot3.svg").d-none.d-lg-block
+
   
 </template>
 
@@ -121,21 +123,21 @@ export default {
     position: absolute
     width: 118px
     top: 27%
-    right: 30%
+    right: 35%
     z-index: 2
   &_2
     animation: float1 3s ease-in-out infinite alternate
     position: absolute
     width: 212px
     top: 50%
-    right: 9%
+    right: 14%
     z-index: 2
   &_3
     animation: float1 3.3s ease-in-out infinite alternate
     position: absolute
     width: 166px
     top: 18%
-    right: 3%
+    right: 8%
     z-index: 2
   &_4
     animation: float1 3.5s ease-in-out infinite alternate

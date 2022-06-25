@@ -167,63 +167,63 @@
     SlyderE.mb-5(data-aos="fade-right")
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Alarmas
+          h3 Alarmas
           p permite comunicar a sus colaboradores circunstancias de urgencia. 
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-23.png' style="max-width: 820px")
 
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Lámparas de colores
+          h3 Lámparas de colores
           p se utiliza en la cadena de producción con el objetivo de informar el estado en que se encuentra. Cada color representa el estado actual del proceso.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-24.png' style="max-width: 820px")
       
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Lecciones de un punto
+          h3 Lecciones de un punto
           p transmitir el conocimiento y habilidades de forma sencilla y concisa.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-25.png' style="max-width: 820px")
 
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Tablero de información
+          h3 Tablero de información
           p implementado para  llevar una trazabilidad y seguimiento en la planificación de los procesos productivos.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-26.png' style="max-width: 820px")
       
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Listas de verificación
+          h3 Listas de verificación
           p son utilizadas con el fin de verificar las actividades realizadas de acuerdo a lo establecido previamente.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-27.png' style="max-width: 820px")
       
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Marcas en el piso
+          h3 Marcas en el piso
           p se utilizan con el objetivo de organizar las áreas de trabajo en los procesos de producción y marcar las zonas para evitar urgencias o problemas en el flujo continuo. 
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-28.png' style="max-width: 820px")
       
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Marcación del puesto de trabajo
+          h3 Marcación del puesto de trabajo
           p su objetivo es contribuir al orden y mejorar la eficacia de las áreas de trabajo de los colaboradores.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-29.png' style="max-width: 820px")
       
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Tablero de resultados
+          h3 Tablero de resultados
           p su objetivo es que mediante indicadores de desempeño se pueda comprobar el rendimiento de sus empleados influye en el resultado de los procesos y metas de la empresa.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-30.png' style="max-width: 820px")
       
       .d-flex.flex-wrap.px-2
         .col-xl-4.order-2.order-xl-1
-          h4 Pirámide de seguridad
+          h3 Pirámide de seguridad
           p esta pirámide nos permite visualizar los diferentes tipos de accidentes graves, leves. Así mismo, los incidentes y practicas seguras.
         .col-xl-8.order-1.order-xl-2.mb-4.mb-xl-0.mx-auto
           img(src='@/assets/curso/temas/tema2/img-31.png' style="max-width: 820px")
@@ -245,7 +245,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1(style="color: #12263F !important; ") "Hoja de ruta para la implantación Lean"
+              h3.mb-1(style="color: #12263F !important; font-size: 18px") "Hoja de ruta para la implantación Lean"
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="'https://www.youtube.com/watch?v=5Cmn3O7kEgQ&t'" target="_blank")
                 span(style="color: #12263F !important") Descargar 
