@@ -178,32 +178,155 @@ export default {
   },
   complementario: [
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      link: 'https://www.google.com/',
+      tema: '1.1 Qué es el valor agregado.',
+      referencia:
+        'Godínez, A. M. (2015). Que es el valor agregado para los procesos Esbeltos y mejora continua',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=4NdUrcjbx7E',
     },
     {
-      texto: 'Nombre del material',
-      tipo: 'tipo',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2. Concepto de mejora continua.',
+      referencia: 'Procem Consultores. (s.f.). La mejora continua.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=E1pfwFCZo-U',
+    },
+    {
+      tema: '4. El factor humano en la implementación de Lean',
+      referencia:
+        'Madriz, C. E., Sánchez, M., Sánchez, O. & Hernández-Granados, J. B. (2021). Influencia de la intervención humana en procesos modernos de manufactura: un enfoque de simulación de procesos centrado en el factor humano. Revista Tecnología En Marcha, 35(1), Pág. 3–13.',
+      tipo: 'Artículo',
+      link: 'https://revistas.tec.ac.cr/index.php/tec_marcha/article/view/5358',
+    },
+    {
+      tema: '5. Medida de resultados Lean a través de indicadores',
+      referencia:
+        'Daniel, R., Paz, C. & Gómez, G. (s.f.). Administración de la calidad total.',
+      tipo: 'Libro',
+      link: 'http://nulan.mdp.edu.ar/1614/1/09_administracion_calidad.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Control Visual',
+      significado:
+        'Se utilizan con el fin de tener una comunicación visual facilitándole a todos los empleados el avance de las acciones de mejora.',
     },
     {
-      termino: '<em>Término</em>',
-      significado: 'Definición',
+      termino: 'Heijunka',
+      significado:
+        'Sirve para planificar y nivelar la demanda de los clientes, hacia la producción en flujo continuo.',
+    },
+    {
+      termino: 'Kaizen',
+      significado:
+        'Filosofía japonesa KAIZEN, cuyo nombre está compuesto de las palabras: KAI – Cambio y ZEN – bondad o bueno. Por lo que se interpreta como “bondad del cambio” o un “cambio bueno.',
+    },
+    {
+      termino: 'Kanban',
+      significado:
+        'Sistema de control sincronizada de la producción basada en tarjetas.',
+    },
+    {
+      termino: 'Liderazgo',
+      significado:
+        'Es influir con seguridad en la toma y desarrollo de decisiones en un grupo determinado dirigiendo al grupo a la meta que esta propuesta para lograr.',
+    },
+    {
+      termino: 'SMED',
+      significado:
+        'Es un sistema que se utiliza para reducir los tiempos de preparación.',
+    },
+    {
+      termino: 'Trabajo de equipo',
+      significado:
+        'Es la capacidad que tiene un conjunto de personas para trabajar en unión con el fin de lograr el mismo objetivo que se tiene en común.',
+    },
+    {
+      termino: 'Valor agregado',
+      significado:
+        'Es la utilidad adicional que tiene un bien o servicio como consecuencia de haber sufrido un proceso de transformación.',
     },
   ],
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Alvarado Ramírez, K. & Pumisacho, Á. V. (2017). Prácticas de mejora continua, con enfoque Kaizen, en empresas del Distrito Metropolitano de Quito: Un estudio exploratorio. Intangible Capital, vol. 13, núm. 2, pp. 479-497. Universitat Politècnica de Catalunya Terrassa.',
+      link: '',
+    },
+    {
+      referencia:
+        'Arrieta Posada, J. G. (2007). Interacción y conexiones entre las técnicas 5s, SMED y Poka Yoke en procesos de mejoramiento continuo. Tecnura, vol. 10, núm. 20, pp. 139-148. Universidad Distrital Francisco José de Caldas.',
+      link: '',
+    },
+    {
+      referencia:
+        'Brigham, E. & Houston, J. (2006). Fundamentos de Administración Financiera. (10ª ed.). Cengage Learning Editores. pp. 831.',
+      link: '',
+    },
+    {
+      referencia:
+        'Canseco Melchor, F. & Ojeda García, A. (2016), Comunicación Laboral: Una Propuesta Estratégica Para Facilitar El Quehacer De Los Equipos De Trabajo. Enseñanza e Investigación en Psicología, vol. 21, núm. 2, pp. 183- 194. Consejo Nacional para la Enseñanza en Investigación en Psicología A.C. Xalapa.',
+      link: '',
+    },
+    {
+      referencia: 'Consulting Group. (s.f.). Control Visual.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://spcgroup.com.mx/control-visual/#:~:text=Control%20Visual%20es%20una%20t%C3%A9cnica,textos%20u%20otras%20instrucciones%20escritas',
+    },
+    {
+      referencia:
+        'Chirinos, E., Rivero, E., Goyo, A., Méndez, E. & Figueredo, C. (2008). Indicadores de gestión para medir la eficiencia hospitalaria. Negotium, vol. 4, núm. 10, pp. 50-63. Fundación Miguel Unamuno y Jugo Maracaibo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Favela Herrera, M., Escobedo, M. T., Romero, R. & Hernández, J. (2019). Herramientas de manufactura esbelta que inciden en la productividad de una organización: modelo conceptual propuesto. Revista Lasallista De Investigación, Vol. 16 No 1–2019.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, M., Ráez, L., Castro, M., Vivar, L. & Oyola, L. (2003). Sistema de Indicadores de Calidad I Industrial. Data, vol. 6, núm. 2, pp. 63-65. Universidad Nacional Mayor de San Marcos Lima.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, A. (2016). Cultura de servicio en la optimización del servicio al cliente. Telos, vol. 18, núm. 3, septiembre-diciembre, pp. 381-398. Universidad Privada Dr. Rafael Belloso Chacín Maracaibo.',
+      link: '',
+    },
+    {
+      referencia:
+        "González Quintana, M. J. & Cañadas Molina, E. (2008). Los indicadores de gestión y el cuadro de mando en las entidades no lucrativas CIRIEC-España. Revista de Economía Pública, Social y Cooperativa, núm. 63, pp. 227-252. Centre International de Recherches et d'Information sur l'Economie Publique, Sociale et Coopérative Valencia, Organismo Internacional.",
+      link: '',
+    },
+    {
+      referencia:
+        'Guadarrama Tavira, E. & Rosales Estrada, E. M. (2015). Marketing Relacional: Valor, Satisfacción, Lealtad y Retención del Cliente. Análisis y Reflexión Teórica. Ciencia y Sociedad, vol. 40, núm. 2, pp. 307-340. Instituto Tecnológico de Santo Domingo Santo Domingo.',
+      link: '',
+    },
+    {
+      referencia:
+        'Gutiérrez, E. & Mahecha, M. (2015). Propuesta de implementación de la metodología manufactura esbelta en el proceso de empaque en las líneas de coloración para el negocio de profesional de la planta de producción de Henkel colombiana SAS. Universidad Distrital Francisco José de Caldas facultad Tecnológica Proyecto curricular de Ingeniería de Producción.',
+      link: '',
+    },
+    {
+      referencia: 'López, J. F. (2018). Valor añadido. Economipedia.com.',
+      link:
+        'https://economipedia.com/definiciones/valor-anadido.html#:~:text=El%20valor%20a%C3%B1adido%20o%20valor,suma%20de%20los%20recursos%20utilizados',
+    },
+    {
+      referencia:
+        'Marín-García, J. A., Bautista-Poveda, Y. & García-Sabater, J. J. (2014). Etapas en la evolución de la mejora continua: Estudio multicaso. Intangible Capital, vol. 10, núm. 3, pp. 584-618. Universitat Politècnica de Catalunya Barcelona.',
+      link: '',
+    },
+    {
+      referencia:
+        'Torrelles, C., Isus, S., Carrera, X., París, G. & Cela, J. M. (2011). Competencia De Trabajo En Equipo: Definición Y Categorización Profesorado. Revista de Currículum y Formación de Profesorado, vol. 15, núm. 3, pp. 329-344. Universidad de Granada.',
+      link: '',
+    },
+    {
+      referencia:
+        'Vázquez Toledo, S., Bernal Agudo, J. L. & Liesa Orús, M. (2014). La conceptualización del liderazgo: una aproximación desde la práctica educativa REICE. Revista Iberoamericana sobre Calidad, Eficacia y Cambio en Educación, vol. 12, núm. 5, pp. 79-97. Red Iberoamericana de Investigación Sobre Cambio y Eficacia Escolar Madrid.',
+      link: '',
     },
   ],
   creditos: {
