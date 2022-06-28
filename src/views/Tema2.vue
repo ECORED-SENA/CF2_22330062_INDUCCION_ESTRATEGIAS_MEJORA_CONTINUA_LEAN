@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 2
-      h1 Titulo de primer nivel
+      h1 Concepto de mejora continua
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.bloque-img-text-1.mb-5(data-aos="fade-right")
       img(src="@/assets/curso/temas/tema2/img-1_1.png").img-mascara
