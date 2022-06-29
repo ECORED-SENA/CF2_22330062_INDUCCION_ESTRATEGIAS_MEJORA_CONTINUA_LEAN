@@ -15,7 +15,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0.fw-bold Este concepto se originó de una filosofía japonesa <em>KAIZEN</em>, cuyo nombre está compuesto de las palabras: <em>KAI</em> – Cambio y <em>ZEN</em> – bondad o bueno. Por lo que se interpreta como “bondad del cambio” o un “cambio bueno”. Para las empresas hoy en día representa un papel primordial en su funcionamiento ya que orienta las actividades o estrategias del proceso encaminados a la calidad y excelencia. Es necesario comprender que, con el objetivo de mantener el posicionamiento y calidad del producto, se deben revisar y mejorar continuamente sus procedimientos, sistemas y actividades realizadas por la empresa.
 
-    p.mb-0 En la siguiente imagen se presentan 10 puntos clave del sistema Kaizen en la excelencia de las operaciones de mejora continua en las empresas, a continuación, se pueden ver: 
+    p.mb-0 En la siguiente imagen se presentan 10 puntos clave del sistema #[em Kaizen] en la excelencia de las operaciones de mejora continua en las empresas, a continuación, se pueden ver: 
 
     img(src="@/assets/curso/temas/tema2/img-2.png" data-aos="fade-left" style="margin-left: -3rem; margin-right: -3rem; min-width: calc(100% + 6rem);").mb-5
 
@@ -37,12 +37,12 @@
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-left"
     )
-      p.col-xl-7.px-xl-4.mb-5 Por otro lado, como ya se mencionó, la mejora continua se conoce como Kaizen en el enfoque Lean Manufacturing, el cual busca que se involucren todo el personal de la organización, incluyendo directivos y colaboradores por igual. El Kaizen busca mejorar la actitud de las personas, considerando que los esfuerzos conciben mejores resultados a largo plazo; sostiene que en el lugar de trabajo los colaboradores deben mantener y mejorar los niveles laborales con el fin de mejorar el rendimiento de cada proceso, lo cual representa una mejora en el desempeño laboral.
+      p.col-xl-7.px-xl-4.mb-5 Por otro lado, como ya se mencionó, la mejora continua se conoce como #[em Kaizen] en el enfoque #[em Lean Manufacturing], el cual busca que se involucren todo el personal de la organización, incluyendo directivos y colaboradores por igual. El #[em Kaizen] busca mejorar la actitud de las personas, considerando que los esfuerzos conciben mejores resultados a largo plazo; sostiene que en el lugar de trabajo los colaboradores deben mantener y mejorar los niveles laborales con el fin de mejorar el rendimiento de cada proceso, lo cual representa una mejora en el desempeño laboral.
       img(src="@/assets/curso/temas/tema2/img-4.svg" style="max-width: 540px").col-xl-5.mb-4.mb-xl-0.mx-auto
     
     p.mb-5 Por tanto, es importante resaltar los siguientes aspectos que toman gran relevancia en la implementación de este sistema en las empresas:
 
-    SlyderF.mb-5.slider-edit-1(columnas="col-lg-6 col-xl-4" data-aos="fade-right")
+    SlyderF.mb-3.slider-edit-1(columnas="col-lg-6 col-xl-4" data-aos="fade-right")
       .tarjeta.color-acento-contenido.p-4.p-xl-5.h-100(style="background-color: #C9E3FE;")
         .row.justify-content-center.mb-4
           .col-8
@@ -85,6 +85,8 @@
             img(src='@/assets/curso/temas/tema2/img-11.png' style="max-width: 140px").mx-auto
         h4.text-center 7. Fidelización del cliente.
 
+    figcaption(style="font-weight:500;") #[strong Nota]. Adaptación de Hernández Matías, J., Vizán Idoipe, A. (2013). Lean manufacturing. Concepto , técnicas e implantación. https://www.eoi.es/es/savia/publicaciones/20730/lean-manufacturing-concepto-tecnicas-e-implantacion
+
     Separador
 
     .titulo-segundo.color-acento-contenido
@@ -109,11 +111,11 @@
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
         h3.mb-0.pe-0.pe-md-5#t_2_2_1 Control visual.
 
-    p.mb-5(data-aos="fade-left") El Lean Manufacturing en su filosofía considera el control visual como una técnica importante en la gestión de las empresas, ya que se utilizan con el propósito de comunicar de forma clara y sencilla la situación de un proceso de producción, permite un rápido reconocimiento y visualización de la información que se comunica, con el fin de aumentar la eficiencia y la claridad; estas señales pueden ser de muchas formas y colores.
+    p.mb-5(data-aos="fade-left") El #[em Lean Manufacturing] en su filosofía considera el control visual como una técnica importante en la gestión de las empresas, ya que se utilizan con el propósito de comunicar de forma clara y sencilla la situación de un proceso de producción, permite un rápido reconocimiento y visualización de la información que se comunica, con el fin de aumentar la eficiencia y la claridad; estas señales pueden ser de muchas formas y colores.
 
     .position-relative.mb-5(data-aos="fade-right")
       img(src="@/assets/curso/temas/tema2/img-13.jpg")
-      p.text-img-1 Los métodos de control visual tienen como objetivo aumentar la eficiencia y la eficacia de un proceso al hacer los pasos del proceso más visibles; la teoría detrás de control visual es que, si algo es claramente visible o está a la vista, es fácil de recordar y mantenerlo presente, una ventaja del control visual es que a todo el mundo se le dan las mismas señales visuales y así es probable que tengan el mismo punto de vista, de acuerdo con Consulting Group, (s.f.).
+      p.text-img-1 Los métodos de control visual tienen como objetivo aumentar la eficiencia y la eficacia de un proceso al hacer los pasos del proceso más visibles; la teoría detrás de control visual es que, si algo es claramente visible o está a la vista, es fácil de recordar y mantenerlo presente, una ventaja del control visual es que a todo el mundo se le dan las mismas señales visuales y así es probable que tengan el mismo punto de vista, de acuerdo con #[em Consulting Group], (s.f.).
 
     p.mb-5 El sistema de control visual radica en mejorar la comunicación con la información relevante y estandarizarla, su implementación puede contribuir en los siguientes aspectos para la empresa:
 
@@ -233,7 +235,7 @@
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
         h3.mb-0.pe-0.pe-md-5#t_2_2_2 Hoja de ruta para la implantación <em>Lean</em>.
     
-    p.mb-5(data-aos="fade-left") La hoja de ruta contempla 6 fases para la implementación, donde se inicia con un diagnóstico, seguido de la planificación para la implantación del Lean, lanzamiento, estabilización de mejoras, estandarización y fabricación en flujo. 
+    p.mb-5(data-aos="fade-left") La hoja de ruta contempla 6 fases para la implementación, donde se inicia con un diagnóstico, seguido de la planificación para la implantación del #[em Lean], lanzamiento, estabilización de mejoras, estandarización y fabricación en flujo. 
       br
       br
       | Implementar el sistema de <em>Lean Manufacturing</em> requiere una hoja de ruta que implica un plan y una ejecución seria y rigurosa en cada una de las fases, según se presenta en el siguiente PDF a descargar.
@@ -248,26 +250,27 @@
               h3.mb-1(style="color: #12263F !important; font-size: 18px") "Hoja de ruta para la implantación Lean"
             .col-sm-auto
               a.boton.color-acento-botones.texto-blanco(:href="'https://www.youtube.com/watch?v=5Cmn3O7kEgQ&t'" target="_blank")
-                span(style="color: #12263F !important") Descargar 
-                i.fas.fa-file-download(style="color: black !important")
+                span(style="color: #12263F !important") Ver video 
+                i.fas.fa-play(style="color: black !important")
     
     .decorador-titulo.mb-5
       .container-decorador
         img(src="@/assets/curso/temas/tema1/decorador-1.svg" style="max-width: 72px").me-4
         h3.mb-0.pe-0.pe-md-5#t_2_2_3 Aspectos generales de implementación <em>Lean</em> en las empresas.
     
-    p.mb-5.pb-5(data-aos="fade-left") Los aspectos generales en la implementación Lean se resumen a dos categorías principales que tienen relación con factores de productividad denominados:
+    h4.text-center Factores de productividad 
+    p.mb-5.pb-5(data-aos="fade-left") Los aspectos generales en la implementación #[em Lean] se resumen a dos categorías principales que tienen relación con factores de productividad denominados:
     .d-flex.flex-wrap.justify-content-center.align-items-stretch.mb-5.pt-3(data-aos="fade-right")
+      .col-md-6.col-xl-4.px-md-4.d-flex.pt-5.pt-md-0
+        .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
+          img(src="@/assets/curso/temas/tema2/img-331.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
+          h4.mb-4.text-center.fw-bold Factores externos
+          p.text-center se refieren al desempeño socio económico y ambiental del medio externo tales como las costumbres, cultura empresarial, el desempleo, la calidad de vida, el nivel educativo, la cultura ambiental, entre otros.
       .col-md-6.col-xl-4.px-md-4.d-flex.mb-5.mb-md-auto
         .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
           img(src="@/assets/curso/temas/tema2/img-33.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
           h4.mb-4.text-center.fw-bold Factores internos
           p.text-center están sujetos a su control, ya que se modifican más fácilmente que otros como lo son las plantas industriales y el equipo en una empresa manufacturera, desempeñando un papel fundamental, adoptando medidas correctivas, reducción de tiempo parado y uso eficaz de las locaciones disponibles. 
-      .col-md-6.col-xl-4.px-md-4.d-flex.pt-5.pt-md-0
-        .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
-          img(src="@/assets/curso/temas/tema2/img-33.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
-          h4.mb-4.text-center.fw-bold Factores externos
-          p.text-center se refieren al desempeño socio económico y ambiental del medio externo tales como las costumbres, cultura empresarial, el desempleo, la calidad de vida, el nivel educativo, la cultura ambiental, entre otros.
 
     .position-relative(style="width: calc(100% + 6rem); margin-left: -3rem; margin-right: -3rem;")
       img(src="@/assets/curso/temas/tema2/bg-1.png" style="position: absolute; top: -260px")

@@ -95,10 +95,7 @@
               | IFA (índice de Frecuencia de Accidentes)
             li.mb-0
               img(src="@/assets/curso/temas/tema5/decorador.svg" style="min-width: 15px; max-width: 15px").me-3
-              | MTBF – MTTR (Fiabilidad y 
-            li.mb-0
-              img(src="@/assets/curso/temas/tema5/decorador.svg" style="min-width: 15px; max-width: 15px").me-3
-              |Mantenibilidad del Equipo)
+              | MTBF – MTTR (Fiabilidad y Mantenibilidad del Equipo)
             
     Separador
 

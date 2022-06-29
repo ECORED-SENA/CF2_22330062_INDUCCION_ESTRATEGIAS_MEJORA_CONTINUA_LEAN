@@ -48,7 +48,7 @@
     img(src="@/assets/curso/temas/tema1/img-3.svg" style="max-width: 400px" data-aos="fade").mb-4.mx-auto
     img(src="@/assets/curso/temas/tema1/img-4.svg" data-aos="fade-right").mb-5
 
-    p.text-center Nota: Tomada de Guadarrama Tavira, E.; Rosales Estrada, E. (2022). Marketing relacional: valor, satisfacción, lealtad y retención del
+    p.text-center Nota: Tomada de Guadarrama Tavira, E.; Rosales Estrada, E. (2022). #[em Marketing] relacional: valor, satisfacción, lealtad y retención del
       br
       |Cliente. Análisis y reflexión teórica.  <a href="https://www.redalyc.org/pdf/870/87041161004.pdf" target="_blank">https://www.redalyc.org/pdf/870/87041161004.pdf</a>
     Separador
@@ -62,9 +62,9 @@
       data-aos="fade-right"
     )
       img(src="@/assets/curso/temas/tema1/img-5.svg" style="max-width: 504px").col-xl-5.mb-4.mb-xl-0.mx-auto
-      p.fw-bold.col-xl-7.px-xl-4.mb-0 La gestión empresarial centrada en el cliente genera valor y es un paso del marketing tradicional de transacciones sustentado en el cliente, según Pinto (1997), citado en Guadarrama y Rosales (2015), en un primer momento su enfoque se centra en transmitir del mensaje al cliente y en un segundo momento el diálogo permanente, un trato personalizado, proceso que implica recoger información de los clientes mediante la investigación, considerada ésta una actividad que debe ejercerse en forma sistemática y permanente.
+      p.fw-bold.col-xl-7.px-xl-4.mb-0 La gestión empresarial centrada en el cliente genera valor y es un paso del #[em marketing] tradicional de transacciones sustentado en el cliente, según Pinto (1997), citado en Guadarrama y Rosales (2015), en un primer momento su enfoque se centra en transmitir del mensaje al cliente y en un segundo momento el diálogo permanente, un trato personalizado, proceso que implica recoger información de los clientes mediante la investigación, considerada ésta una actividad que debe ejercerse en forma sistemática y permanente.
     
-    p.mb-5(data-aos="fade-left") Dentro de este orden de ideas, el enfoque anterior consiste en implementar un programa de marketing relacional, denominado también CRM (Customer Relationship Manager) con el cual las empresas identifican las necesidades que tiene el cliente y mejoran sus relaciones, esto implica una mayor comunicación y atención personalizada, saber lo que necesita y saber cuánto están dispuestos a pagar los clientes, darles mayores expectativas y hacerlos sentir en el centro de la organización, de acuerdo con Guadarrama y Rosales (2015).
+    p.mb-5(data-aos="fade-left") Dentro de este orden de ideas, el enfoque anterior consiste en implementar un programa de #[em marketing] relacional, denominado también CRM (#[em Customer Relationship Manager]) con el cual las empresas identifican las necesidades que tiene el cliente y mejoran sus relaciones, esto implica una mayor comunicación y atención personalizada, saber lo que necesita y saber cuánto están dispuestos a pagar los clientes, darles mayores expectativas y hacerlos sentir en el centro de la organización, de acuerdo con Guadarrama y Rosales (2015).
 
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
@@ -74,13 +74,13 @@
       p.col-xl-7.px-xl-4.mb-0 En esencia, crear una comunicación personalizada con el cliente crea lealtad y barreras a la competencia, es importante generar esta estrategia empresarial que busca identificar y mantener los clientes brindando un servicio personalizado lo cual supone mayor rentabilidad y crecimiento, no es un cambio de procedimiento sino un cambio estructural.
       img(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 540px").col-xl-5.mb-4.mb-xl-0.mx-auto
 
-    p Conozcamos la definición del marketing basado en relaciones según el autor:
+    p Conozcamos la definición del #[em marketing] basado en relaciones según el autor:
     p.mb-5 Según Kotler (2000), citado en Guadarrama y Rosales (2015)
 
     .bloque-texto-b.color-secundario.p-4.cajon-comillas-color.col-xl-11.mx-auto(data-aos="fade-left")
       .bloque-texto-b__texto
         i.fas.fa-quote-left(style="color: #35B5D5")
-        h4.mb-0 Al adoptar el marketing basado en las relaciones, la empresa necesita visión, liderazgo y paciencia para tener éxito mediante actividades como establecer una alta dirección eficiente; crear un fuerte vínculo con su estrategia; recoger información acerca de los clientes; mejorar las técnicas y procesos de información”.
+        h4.mb-0 Al adoptar el #[em marketing] basado en las relaciones, la empresa necesita visión, liderazgo y paciencia para tener éxito mediante actividades como establecer una alta dirección eficiente; crear un fuerte vínculo con su estrategia; recoger información acerca de los clientes; mejorar las técnicas y procesos de información”.
           br
           br
           |(Guadarrama y Rosales, 2015)

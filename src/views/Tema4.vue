@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 4
-      h1 El factor Humano en la implementación del Lean
+      h1 El factor Humano en la implementación del #[em Lean]
     
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/bg-1.svg')})`}"
@@ -15,7 +15,7 @@
       img(src="@/assets/curso/temas/tema4/img-1.svg" style="max-width: 449px").col-xl-5.mb-4.mb-xl-0.mx-auto
       p.col-xl-7.px-xl-4.mb-0 El factor humano es la clave principal para que un <b><em>proyecto Lean</em></b> salga a la perfección, debido a que se busca un compromiso de todos los empleados sin importar el cargo con el que cuenten dentro de la empresa y así lograr un compromiso total donde gobierne un buen trabajo en equipo y un gran liderazgo por parte de los mandos altos obteniendo mayores resultados siempre y cuando se entregue lo mejor de todos para cumplir con el objetivo.
 
-    p.mb-5(data-aos="fade-right") Con este método se busca asignar responsabilidad entre todos los trabajadores que se encuentren involucrados con el proyecto promoviendo una buena comunicación y colaboración en la empresa donde deba ser la encargada de facilitar los recursos necesarios a cada uno de sus trabajadores y llevar a cabo un buen desarrollo del método Lean. 
+    p.mb-5(data-aos="fade-right") Con este método se busca asignar responsabilidad entre todos los trabajadores que se encuentren involucrados con el proyecto promoviendo una buena comunicación y colaboración en la empresa donde deba ser la encargada de facilitar los recursos necesarios a cada uno de sus trabajadores y llevar a cabo un buen desarrollo del método #[em Lean]. 
 
     Separador
 
@@ -127,7 +127,7 @@
             h5.ps-2 Etapa de clausura:
         p.mb-0.px-3 es la etapa donde el trabajo de equipo logra su objetivo final, viendo los resultados que obtuvieron a lo largo del tiempo, es la etapa que concluye todo el proceso.
     img(src="@/assets/curso/temas/tema4/bg-1.png" style="margin-right: -3rem; margin-left: -3rem; min-width: calc(100% + 6rem); position: absolute;")
-    p.mb-5(data-aos="fade-left") Para construir un nuevo escenario, en donde los fundamentos del Lean Manufacturing se vean reflejados y ejecutados, es primordial desarrollar un equipo de trabajo para garantizar el éxito en esta cultura de cooperación y comunicación. Existen diversos beneficios y motivaciones para implementar el trabajo colectivo en grupos multidisciplinares, tales como:
+    p.mb-5(data-aos="fade-left") Para construir un nuevo escenario, en donde los fundamentos del #[em Lean Manufacturing] se vean reflejados y ejecutados, es primordial desarrollar un equipo de trabajo para garantizar el éxito en esta cultura de cooperación y comunicación. Existen diversos beneficios y motivaciones para implementar el trabajo colectivo en grupos multidisciplinares, tales como:
 
     img(src='@/assets/curso/temas/tema4/img-8.svg' data-aos="fade-right").col-lg-10.col-xl-8.mx-auto.mb-5
 
