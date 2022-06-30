@@ -22,7 +22,7 @@
     Separador
 
     .titulo-segundo.color-acento-contenido
-      h2#t_2_1 2.1.	Variables y restricciones inherentes al proceso productivo
+      h2#t_2_1 2.1 Oportunidades de mejora
     
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"

@@ -92,7 +92,7 @@ export default {
             icono: 'far fa-file-alt',
             numero: '4.1',
             titulo:
-              'Conceptos de liderazgo y trabajo de equipo, Diferencias y características',
+              'Conceptos de liderazgo y trabajo de equipo, diferencias y características',
             hash: 't_4_1',
           },
           {

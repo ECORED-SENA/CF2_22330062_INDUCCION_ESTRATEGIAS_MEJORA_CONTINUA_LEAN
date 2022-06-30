@@ -83,7 +83,7 @@
                 br
                 |<b style="color: black">Características:</b>
                 br
-                |saber dirigir, influenciar, escuchar, tener buena capacidad comunicativa , tener compromiso.
+                |saber dirigir, influenciar, escuchar, tener buena capacidad comunicativa, tener compromiso.
       
     Separador
 
@@ -154,7 +154,7 @@
           br
           |En esencia, desarrollar el modelo en mano de miembros comprometidos no solo con los objetivos, sino también dispuestos a aprender, aportar conocimientos y mejorar colectivamente genera un ambiente de disposición, el cual permite dar paso a la colaboración y comunicación integral entre operarios, directivos y otros mandos.
         .cajon.color-primario.cajon-t4-1.p-4.mb-4(style="background-color: #F3F9FF; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
-          p De esta forma, el rol de la comunicación juega un papel clave en el modelo debido a que crea conciencia de grupo y conlleva a una estrecha colaboración activa, lo cual se traduce en la resolución de conflictos y/o dudas que puedan entorpecer el proceso, logrando así el esperado éxito colectivo. A continuación, se puede observar el proceso de comunicación asertiva en un equipo de trabajo (ver figura 6):
+          p De esta forma, el rol de la comunicación juega un papel clave en el modelo debido a que crea conciencia de grupo y conlleva a una estrecha colaboración activa, lo cual se traduce en la resolución de conflictos y/o dudas que puedan entorpecer el proceso, logrando así el esperado éxito colectivo. A continuación, se puede observar el proceso de comunicación asertiva en un equipo de trabajo (ver figura 5):
 
     div(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/bg-3.png')})`}"

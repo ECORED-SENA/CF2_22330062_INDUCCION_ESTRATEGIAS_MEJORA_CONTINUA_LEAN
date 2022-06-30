@@ -80,7 +80,7 @@
     .bloque-texto-b.color-secundario.p-4.cajon-comillas-color.col-xl-11.mx-auto(data-aos="fade-left")
       .bloque-texto-b__texto
         i.fas.fa-quote-left(style="color: #35B5D5")
-        h4.mb-0 Al adoptar el #[em marketing] basado en las relaciones, la empresa necesita visión, liderazgo y paciencia para tener éxito mediante actividades como establecer una alta dirección eficiente; crear un fuerte vínculo con su estrategia; recoger información acerca de los clientes; mejorar las técnicas y procesos de información”.
+        h4.mb-0 "Al adoptar el #[em marketing] basado en las relaciones, la empresa necesita visión, liderazgo y paciencia para tener éxito mediante actividades como establecer una alta dirección eficiente; crear un fuerte vínculo con su estrategia; recoger información acerca de los clientes; mejorar las técnicas y procesos de información”.
           br
           br
           |(Guadarrama y Rosales, 2015)
