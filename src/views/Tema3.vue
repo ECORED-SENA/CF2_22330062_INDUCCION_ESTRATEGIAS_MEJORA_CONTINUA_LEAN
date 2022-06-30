@@ -27,7 +27,7 @@
 
     img(src="@/assets/curso/temas/tema3/img-2.svg" data-aos="fade-left").mb-5
 
-    p.mb-5 Una vez identificadas las partes de un proceso y encontrados los puntos vulnerables que se ven redundantes o se benefician de mejoras presentadas por #[em Lean Manufacturing], se utilizan “formatos” o plantillas prediseñadas para realizar la documentación de mejoras del proceso, algunos ejemplos son (ver figura 4):
+    p.mb-5 Una vez identificadas las partes de un proceso y encontrados los puntos vulnerables que se ven redundantes o se benefician de mejoras presentadas por #[em Lean Manufacturing], se utilizan “formatos” o plantillas prediseñadas para realizar la documentación de mejoras del proceso, algunos ejemplos son (ver figura 13):
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 11.
@@ -38,11 +38,11 @@
       .col-xl-5.px-xl-2
         p.p-4(style="background-color: #E8F1FF; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)") Estos formatos nos permiten llevar un control del proceso donde se conozca la información necesaria para poder empezar una planificación de la mejora donde se deja establecido lo que se quiere mejorar y que se va a llevar a cabo para luego ser ejecutado. Al ser ejecutado se realiza una evaluación donde se busca encontrar los errores que se presentan continuamente para luego actuar y ser corregidos buscando el fin de la mejora.
 
-    p.mb-5(data-aos="fade-left") En la siguiente figura 5 se presenta los mecanismos que se deben utilizar para conocer todos los aspectos claves en el desarrollo de implementación de procesos de mejora:
+    p.mb-5(data-aos="fade-left") En la siguiente figura 12 se presenta los mecanismos que se deben utilizar para conocer todos los aspectos claves en el desarrollo de implementación de procesos de mejora:
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 12.
-      span Formatos usados en la documentación de <em>Lean Manufacturing</em>
+      span Mecanismos a utilizar en la implementación de procesos
 
     img(src="@/assets/curso/temas/tema3/img-4.svg" data-aos="fade-right").col-12.col-md-6.mx-auto
 

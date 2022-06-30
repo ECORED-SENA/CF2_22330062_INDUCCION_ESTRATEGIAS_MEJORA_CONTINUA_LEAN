@@ -239,7 +239,7 @@
       br
       br
       | Implementar el sistema de <em>Lean Manufacturing</em> requiere una hoja de ruta que implica un plan y una ejecución seria y rigurosa en cada una de las fases, según se presenta en el siguiente PDF a descargar.
-    
+
     .tarjeta.color-primario.p-3.mb-5.col-xl-8.mx-auto(style="background-color: #F3F9FF; border-radius: 0;" data-aos="fade-right")
       .row.justify-content-around.align-items-center
         .col-3
@@ -249,9 +249,9 @@
             .col.mb-3.mb-sm-0
               h3.mb-1(style="color: #12263F !important; font-size: 18px") "Hoja de ruta para la implantación Lean"
             .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="'https://www.youtube.com/watch?v=5Cmn3O7kEgQ&t'" target="_blank")
-                span(style="color: #12263F !important") Ver video 
-                i.fas.fa-play(style="color: black !important")
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Hoja_de_ruta_para_la_implantacion_Lean.pdf')" target="_blank")
+                span(style="color: #12263F !important") Descargar
+                i.fas.fa-download(style="color: black !important")
     
     .decorador-titulo.mb-5
       .container-decorador
@@ -265,7 +265,7 @@
         .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
           img(src="@/assets/curso/temas/tema2/img-331.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
           h4.mb-4.text-center.fw-bold Factores externos
-          p.text-center se refieren al desempeño socio económico y ambiental del medio externo tales como las costumbres, cultura empresarial, el desempleo, la calidad de vida, el nivel educativo, la cultura ambiental, entre otros.
+          p.text-center se refieren al desempeño socioeconómico y ambiental del medio externo tales como las costumbres, cultura empresarial, el desempleo, la calidad de vida, el nivel educativo, la cultura ambiental, entre otros.
       .col-md-6.col-xl-4.px-md-4.d-flex.mb-5.mb-md-auto
         .tarjeta.tarjeta--azul.p-4.px-md-5.position-relative(style="padding-top: 86px !important; box-shadow: 0 3px 6px rgba(0, 0, 0, .16)")
           img(src="@/assets/curso/temas/tema2/img-33.svg" style="max-width: 132px; position: absolute; left: 50%; top: -70px; transform: translateX(-50%)")
