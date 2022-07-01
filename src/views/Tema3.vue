@@ -27,7 +27,7 @@
 
     img(src="@/assets/curso/temas/tema3/img-2.svg" data-aos="fade-left").mb-5
 
-    p.mb-5 Una vez identificadas las partes de un proceso y encontrados los puntos vulnerables que se ven redundantes o se benefician de mejoras presentadas por #[em Lean Manufacturing], se utilizan “formatos” o plantillas prediseñadas para realizar la documentación de mejoras del proceso, algunos ejemplos son (ver figura 13):
+    p.mb-5 Una vez identificadas las partes de un proceso y encontrados los puntos vulnerables que se ven redundantes o se benefician de mejoras presentadas por #[em Lean Manufacturing], se utilizan “formatos” o plantillas prediseñadas para realizar la documentación de mejoras del proceso, algunos ejemplos son (ver figura 11):
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 11.
