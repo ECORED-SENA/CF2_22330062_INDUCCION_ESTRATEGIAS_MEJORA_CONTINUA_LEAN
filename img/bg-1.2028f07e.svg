@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="164" viewBox="0 0 1240 164">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcdfee"/>
+      <stop offset="0.659" stop-color="#dcdfee"/>
+      <stop offset="0.826" stop-color="#f5f5f5" stop-opacity="0.949"/>
+      <stop offset="0.913" stop-color="#f7f7f7"/>
+      <stop offset="1" stop-color="#efefef" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect y="-43" width="1240" height="164" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectángulo_266628" data-name="Rectángulo 266628" width="1240" height="213" transform="translate(136 1799)" opacity="0.46" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_726941" data-name="Grupo 726941" transform="translate(-180 -386)">
+    <g id="Grupo_de_desplazamiento_1" data-name="Grupo de desplazamiento 1" transform="translate(180 429)" clip-path="url(#clip-path)" style="isolation: isolate">
+      <g id="Enmascarar_grupo_180537" data-name="Enmascarar grupo 180537" transform="translate(-136 -1799)" clip-path="url(#clip-path-2)">
+        <rect id="Rectángulo_266627" data-name="Rectángulo 266627" width="1240" height="362" transform="translate(136 1799)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
