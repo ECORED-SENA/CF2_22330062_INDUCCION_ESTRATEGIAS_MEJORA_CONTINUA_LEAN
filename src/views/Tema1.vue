@@ -6,13 +6,17 @@
       .titulo-principal__numero
         span.text-white 1
       h1 Valor agregado 
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 1.
+      span Valor agregado
+
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
     )
       img(src="@/assets/curso/temas/tema1/img-1.svg" style="max-width: 449px").col-xl-5.mb-4.mb-xl-0.mx-auto
-      p.col-xl-7.px-xl-4.mb-0 El valor agregado en la filosofía del <em><b>Lean Manufacturing</b></em> se debe orientar desde el enfoque del cliente, ya que si el producto y/o servicio no aporta ningún valor este no estaría dispuesto a pagarlo. 
+      p.col-xl-7.px-xl-4.mb-0 El valor agregado (ver figura 1) en la filosofía del <em><b>Lean Manufacturing</b></em> se debe orientar desde el enfoque del cliente, ya que si el producto y/o servicio no aporta ningún valor este no estaría dispuesto a pagarlo. 
         br
         br
         |Por lo tanto, la generación de valor en las empresas determina la capacidad para competir y ofrecer productos y/o servicios con costos menores. 
@@ -56,6 +60,10 @@
     .titulo-segundo.color-acento-contenido
       h2#t_1_3 1.3. Actividades que generan valor 
 
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 2.
+      span Actividades que generan valor
+
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.mb-5.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-1.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
@@ -66,13 +74,17 @@
     
     p.mb-5(data-aos="fade-left") Dentro de este orden de ideas, el enfoque anterior consiste en implementar un programa de #[em marketing] relacional, denominado también CRM (#[em Customer Relationship Manager]) con el cual las empresas identifican las necesidades que tiene el cliente y mejoran sus relaciones, esto implica una mayor comunicación y atención personalizada, saber lo que necesita y saber cuánto están dispuestos a pagar los clientes, darles mayores expectativas y hacerlos sentir en el centro de la organización, de acuerdo con Guadarrama y Rosales (2015).
 
+    .titulo-sexto.color-acento-contenido.col-xl-4.ms-xl-auto
+      h5 Figura 3.
+      span Comunicación personalizada
+
     .d-flex.flex-wrap.flex-xl-nowrap.align-items-center.clean-bg-movil(
       :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/bg-2.svg')})`}"
       style="background-repeat: no-repeat; background-position: center; margin-left: -3rem; padding-left: 3rem; margin-right: -3rem; padding-right: 3rem"
       data-aos="fade-right"
     )
-      p.col-xl-7.px-xl-4.mb-0 En esencia, crear una comunicación personalizada con el cliente crea lealtad y barreras a la competencia, es importante generar esta estrategia empresarial que busca identificar y mantener los clientes brindando un servicio personalizado lo cual supone mayor rentabilidad y crecimiento, no es un cambio de procedimiento sino un cambio estructural.
-      img(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 540px").col-xl-5.mb-4.mb-xl-0.mx-auto
+      p.order-2.order-xl-1.col-xl-7.px-xl-4.mb-0 En esencia, crear una comunicación personalizada con el cliente crea lealtad y barreras a la competencia, es importante generar esta estrategia empresarial que busca identificar y mantener los clientes brindando un servicio personalizado lo cual supone mayor rentabilidad y crecimiento, no es un cambio de procedimiento sino un cambio estructural.
+      img(src="@/assets/curso/temas/tema1/img-6.svg" style="max-width: 540px").order-1.order-xl-2.col-xl-5.mb-4.mb-xl-0.mx-auto
 
     p Conozcamos la definición del #[em marketing] basado en relaciones según el autor:
     p.mb-5 Según Kotler (2000), citado en Guadarrama y Rosales (2015)

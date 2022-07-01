@@ -113,9 +113,13 @@
 
     p.mb-5(data-aos="fade-left") El #[em Lean Manufacturing] en su filosofía considera el control visual como una técnica importante en la gestión de las empresas, ya que se utilizan con el propósito de comunicar de forma clara y sencilla la situación de un proceso de producción, permite un rápido reconocimiento y visualización de la información que se comunica, con el fin de aumentar la eficiencia y la claridad; estas señales pueden ser de muchas formas y colores.
 
+    .titulo-sexto.color-acento-contenido
+      h5 Figura 8.
+      span Control visual
+
     .position-relative.mb-5(data-aos="fade-right")
       img(src="@/assets/curso/temas/tema2/img-13.jpg")
-      p.text-img-1 Los métodos de control visual tienen como objetivo aumentar la eficiencia y la eficacia de un proceso al hacer los pasos del proceso más visibles; la teoría detrás de control visual es que, si algo es claramente visible o está a la vista, es fácil de recordar y mantenerlo presente, una ventaja del control visual es que a todo el mundo se le dan las mismas señales visuales y así es probable que tengan el mismo punto de vista, de acuerdo con #[em Consulting Group], (s.f.).
+      p.text-img-1 Los métodos de control visual (ver figura 8) tienen como objetivo aumentar la eficiencia y la eficacia de un proceso al hacer los pasos del proceso más visibles; la teoría detrás de control visual es que, si algo es claramente visible o está a la vista, es fácil de recordar y mantenerlo presente, una ventaja del control visual es que a todo el mundo se le dan las mismas señales visuales y así es probable que tengan el mismo punto de vista, de acuerdo con #[em Consulting Group], (s.f.).
 
     p.mb-5 El sistema de control visual radica en mejorar la comunicación con la información relevante y estandarizarla, su implementación puede contribuir en los siguientes aspectos para la empresa:
 
